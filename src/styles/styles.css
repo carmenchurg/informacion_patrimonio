@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .button-container {
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Colocar elementos en columna */
+    align-items: center; /* Centrar horizontalmente */
+  }
+  
+  .button {
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    margin-bottom: 10px; /* Espacio entre botones */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+  }
